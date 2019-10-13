@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Siyam Rupali';
+    src: url('SiyamRupali.eot');
+    src: url('SiyamRupali.eot?#iefix') format('embedded-opentype'),
+        url('SiyamRupali.woff2') format('woff2'),
+        url('SiyamRupali.woff') format('woff'),
+        url('SiyamRupali.ttf') format('truetype'),
+        url('SiyamRupali.svg#SiyamRupali') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,93 @@
+.kv-avatar .krajee-default.file-preview-frame,.kv-avatar .krajee-default.file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+.kv-avatar {
+    display: inline-block;
+}
+.kv-avatar .file-input {
+    display: table-cell;
+    width: 213px;
+}
+.kv-reqd {
+    color: red;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu{
+    min-width: 13rem;
+    padding: 10px;
+}
+
+table.dataTable tbody tr.selected a, table.dataTable tbody th.selected a, table.dataTable tbody td.selected a {
+    color: gray;
+}
+
+.dropdown-menu li a{
+    color: gray;
+    display: block;
+}
+
+.dropdown-menu li:hover{
+    background-color: #ECECEC;
+    padding: 2px
+    
+}
+
+.errorbody{
+    background-color: #EEEEEE;
+    height: 260px;
+    overflow: auto;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.dateAndtimeRange{
+    float: right;
+}
+
+.eachlog{
+    margin-bottom: 10px;
+}
+.eachlog::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.divider{
+    border-left: 2px solid;
+    height: 143px;
+    margin-left: 50%;
+}
+
+.outer-w3-agile .stat-grid .s-l h5{
+    font-size: 20px;
+}
+
+table thead tr th{
+    text-align: center;
+}
+
+#staffAvatorPhoto{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+}
+
+#emailFile{
+    background-color: transparent;
+}
